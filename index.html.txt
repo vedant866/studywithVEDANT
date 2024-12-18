@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #6200ea;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3700b3;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .card {
+            background: white;
+            padding: 1rem;
+            margin: 1rem auto;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 400px;
+        }
+        footer {
+            background-color: #6200ea;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Study Portal</h1>
+    </header>
+    <nav>
+        <a href="#notes">Notes</a>
+        <a href="#videos">Videos</a>
+        <a href="#friends">Friends</a>
+    </nav>
+    <section id="notes">
+        <h2>Study Notes</h2>
+        <div class="card">
+            <p><strong>Math:</strong> Algebra and Geometry Basics</p>
+            <a href="#">Download Notes</a>
+        </div>
+        <div class="card">
+            <p><strong>Science:</strong> Physics and Chemistry Overview</p>
+            <a href="#">Download Notes</a>
+        </div>
+    </section>
+    <section id="videos">
+        <h2>Study Videos</h2>
+        <div class="card">
+            <p>Learn Algebra with this video:</p>
+            <a href="https://www.youtube.com" target="_blank">Watch Video</a>
+        </div>
+        <div class="card">
+            <p>Physics Basics for Beginners:</p>
+            <a href="https://www.youtube.com" target="_blank">Watch Video</a>
+        </div>
+    </section>
+    <section id="friends">
+        <h2>Connect with Friends</h2>
+        <div class="card">
+            <p>Join our study group on WhatsApp:</p>
+            <a href="#">Join Group</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Study Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
